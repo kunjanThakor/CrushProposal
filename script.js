@@ -4,6 +4,7 @@ const yes = document.querySelector('.yes');
 yes.addEventListener('click', () => {
     var responseText = document.getElementById("response");
     responseText.classList.remove("hidden");
+    // responseText.classList.toggle("hidden");
 })
 
 blackbox.addEventListener("mouseover", (event) => {

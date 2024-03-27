@@ -45,3 +45,19 @@ button:hover {
 .hidden {
     display: none;
 }
+
+#response{
+    position: relative;
+    left: 42%;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:600px) {
+    #response {
+            position: relative;
+            left: 12%;
+            width: 50px;
+            height: 50px;
+        }
+}
