@@ -4,4 +4,4 @@
 
 [View Demo](https://kunjanthakor.github.io/CrushProposal/)
 
-![demo ss ](<./Screenshot%20(150).png> "demo scrinshot")
+![demo ss ](<./Screenshot%20(152).png> "demo scrinshot")
