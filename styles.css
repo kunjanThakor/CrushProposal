@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -13,6 +20,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -36,6 +44,8 @@ button {
     margin-top: 15px;
     font-size: 16px;
     position: relative;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -47,7 +57,7 @@ button:hover {
     display: none;
 }
 
-#response{
+#response {
     position: relative;
     left: 42%;
     width: 50px;
@@ -56,9 +66,9 @@ button:hover {
 
 @media screen and (max-width:600px) {
     #response {
-            position: relative;
-            left: 12%;
-            width: 50px;
-            height: 50px;
-        }
+        position: relative;
+        left: 12%;
+        width: 50px;
+        height: 50px;
+    }
 }
